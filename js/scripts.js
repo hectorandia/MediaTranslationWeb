@@ -231,6 +231,7 @@
                 name: $('#name').val(),
                 email: $('#email').val(),
                 comments: $('#comments').val()
+				//message: $('#comments').val() //Se tiene que eliminar para estar operativo
             },
                 function (data) {
                     document.getElementById('message').innerHTML = data;

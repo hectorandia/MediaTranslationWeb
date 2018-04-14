@@ -2,7 +2,6 @@
 
 // CHANGE EMAIL ADDRESS ON LINE 45.
 
-
 if(!$_POST) exit;
 
 // Email address verification, do not edit.
@@ -42,7 +41,7 @@ if(get_magic_quotes_gpc()) {
 // Enter the email address that you want to emails to be sent to.
 
 //$address = "example@example.com";
-$address = "otit1978@hotmail.com";
+$address = "rosaliestellmacher@gmail.com";
 
 
 // Configuration option.
