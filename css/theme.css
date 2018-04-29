@@ -3160,7 +3160,7 @@ ul {
         align-items:center;
         margin-right: -15px;
         margin-left: -15px;
-    }
+	}
 }
 @media(min-width:1200px){.md-pr20pr{padding-right:20%}.md-pl20pr{padding-left:20%}.md-p10pr{padding:10%}}
 @media (max-width:992px) {
