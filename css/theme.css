@@ -3154,9 +3154,9 @@ ul {
 .pt9perc{padding-top:9%}
 .img-responsive{max-width: 100%;} 
 .width100{width: 100%;}
-@media ( min-width: 992px ) { 
-    .vertical-align {
-        display:flex;
+
+@media ( min-width:992px ){.vertical-align {
+	display:flex;
         align-items:center;
         margin-right: -15px;
         margin-left: -15px;
@@ -3520,7 +3520,6 @@ ul {
     text-align: left;
     padding: 50px 50px 50px 100px;
     border-radius: 10px;
-    margin-bottom: 40px;
     transition: background-color 0.2s ease;
     -webkit-transition: background-color 0.2s ease;
     quotes: "\201C" "\201D";
@@ -3537,7 +3536,6 @@ ul {
     border-left-color: transparent!important;
     border-color: #232323 transparent transparent transparent;
     border-color: #fff;
-    position: absolute;
     width: 28px;
     height: 28px;
     display: block;
@@ -4121,8 +4119,7 @@ ul {
     font-weight: 400;
     font-size: 13px;
     line-height: 22px;
-    color: #555; 
-    width: 100%;  
+    color: #555;  
     margin-bottom: 20px;
     border-bottom: 2px solid #ddd;
 }   
@@ -4135,7 +4132,7 @@ textarea {
 	height: 160px;      
 }
 ::-webkit-input-placeholder {    
-    color: #aaa
+    color: #aaa;
      -webkit-transition: -webkit-border-color: 0.35s;
     transition: border-color 0.35s;
 }
@@ -5059,7 +5056,6 @@ blockquote {
     font-size: 12px;
     line-height: 22px;
     color: #555;
-    width: 100%;
     margin-bottom: 20px;
     border-radius: 15px;
     border: 1px solid #ddd;
@@ -5511,7 +5507,7 @@ section {
 .timeline-bullet { 
     left: 50%;
     margin-left: -7px;
-    -webkit-transform: translateZ(0);
+    -webkit-transform: translate(0);
     -webkit-backface-visibility: hidden;
 }
 .timeline-content {

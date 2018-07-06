@@ -245,7 +245,7 @@
 		});
 		return false;
 	});
-    
+	
     //Subscribe form
     
     $('#subscribe-form,#subscribe-form2').on('submit', function (e) {
