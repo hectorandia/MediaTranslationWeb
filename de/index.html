@@ -25,6 +25,21 @@
   				ga('create', 'UA-103301640-1', 'auto');
   				ga('send', 'pageview');
 		</script>
+   		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+		<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+		<script>
+			window.addEventListener("load", function(){
+				window.cookieconsent.initialise({
+  					"palette": {
+						"popup": {
+							"background": "#000"
+						},
+						"button": {
+						  "background": "#f1d600"
+						}
+  					}
+				})});
+		</script>
     </head>
     <body>        
         <!-- Start Header -->
@@ -67,9 +82,9 @@
                             
                             <li class="dropdown adjust-pos"><a class="dropdown-toggle">DE<i class="ti-angle-down"></i></a> 
                                 <ul class="dropdown-menu">    
-                                    <li><a href="shop-fullwidth.html">Spanisch</a></li> 
-                                    <li><a href="shop-standard.html">Englisch</a></li>   
-                                    <li><a href="shop-boxed.html">Deutsch</a></li>
+                                    <li><a href="../es/index">Spanisch</a></li> 
+                                    <li><a href="../en/index">Englisch</a></li>   
+                                    <li><a href="../de/index">Deutsch</a></li>
                                 </ul>
                             </li>                          
                         </ul>
@@ -89,7 +104,7 @@
                         <p class="mt20 hidden-xs">Wir übersetzen mit Leidenschaft</p>
                         <a href="#contact" class="btn btn-lg btn-primary btn-circle btn-scroll mt40">Kontakt</a>  
                     </div> 
-                    <a href="#about" class="scroll-btn"><i class="ion-chevron-down"></i></a>                   
+                    <a href="#about" class="btn-scroll scroll-btn"><i class="ion-chevron-down"></i></a>               
                 </div>
             </div>    
         </section>
@@ -283,14 +298,11 @@
                         <hr class="separator left">
                         <p class="mt30">Als junges Unternehmen mit beständiger Auftragslage sind wir sehr an der Erweiterung unseres Übersetzer-Netzwerks interessiert. Wenn Sie einschlägige Qualifikationen und aussagekräftige Arbeitserfahrungen vorweisen können, dann kontaktieren Sie uns für eine potenzielle Kooperation. Wir legen großen Wert auf eine selbstverständliche Zuverlässigkeit und eine unkomplizierte Zusammenarbeit – dies gilt in beide Richtungen. </p>
                         <a href="#contact" class="btn btn-lg btn-primary btn-circle btn-scroll mt40">Contáctanos</a> 
-                    </div> 
-					
-
+                    </div>
+                    <br> 
                     <div class="col-md-6">
                         <img src="../img/app/img2.png" class="img-responsive mr-auto" alt="#">
-                    </div>
-                    
-                    
+                    </div>               
                 </div>
             </div>
         </section>            
@@ -321,8 +333,7 @@
                                 <h4>This is one of the best themes that I bought on ThemeForest. It is well documented and well coded but<br />the best of all is the friendly and quick support behind.</h4>  
                                 <h5 class="subheading">Jared Jackson</h5>
                                 <p>App Developer</p>
-                            </div> 
-
+                            </div>
                         </div>
                     </div> 
 
