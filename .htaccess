@@ -5,9 +5,11 @@ RewriteBase /media-translations
 RewriteCond %{HTTP:Accept-Language} ^de [NC]
 RewriteRule ^/?$ de/ [R,NC,L]
  
-# Lenguaje portugués: 'es'
+# Lenguaje espanol: 'es'
 RewriteCond %{HTTP:Accept-Language} ^es [NC]
-RewriteRule ^/?$ es/ [R,NC,L]
+#RewriteRule ^/?$ es/ [R,NC,L]
+RewriteRule ^/?$ de/ [R,NC,L]
  
 #Regla general para los demás casos
-RewriteRule ^/?$ en/ [R,NC,L]
+#RewriteRule ^/?$ en/ [R,NC,L]
+RewriteRule ^/?$ de/ [R,NC,L]
