@@ -225,7 +225,7 @@
 		$("#message").slideUp(250, function () {
             $('#message').hide();
             $('#submit')
-                .after('<img src="img/assets/contact-form-loader.gif" class="loader" />')
+                .after('<img src="/img/assets/contact-form-loader.gif" class="loader" />')
                 .attr('disabled', 'disabled');
             $.post(action, {
                 name: $('#name').val(),
