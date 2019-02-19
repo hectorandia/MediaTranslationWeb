@@ -10,6 +10,6 @@ RewriteCond %{HTTP:Accept-Language} ^es [NC]
 #RewriteRule ^/?$ es/ [R,NC,L]
 RewriteRule ^/?$ de/ [R,NC,L]
  
-#Regla general para los dem√°s casos
+#Regla general para los dem·s casos
 #RewriteRule ^/?$ en/ [R,NC,L]
 RewriteRule ^/?$ de/ [R,NC,L]

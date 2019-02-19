@@ -1,0 +1,10 @@
+RewriteEngine On
+ 
+# Lenguaje Germany: 'de'
+RewriteCond %{HTTP:Accept-Language} ^de [NC]
+RewriteRule ^$ https://media-translations.com/de/ [L,R=301]
+ 
+RewriteCond %{HTTP:Accept-Language} ^es [NC]
+RewriteRule ^$ https://media-translations.com/de/ [R,NC,L]
+ 
+RewriteRule ^$ https://media-translations.com/de/ [R,NC,L]
